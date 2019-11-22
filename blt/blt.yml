@@ -22,6 +22,8 @@ project:
     hostname: 'local.${project.machine_name}.com'
 # Configuration settings for new git repository.
 git:
+  hooks:
+    commit-msg: false
   default_branch: master
   remotes:
     - 'https://github.com/hplord12/blt-artifact.git'
