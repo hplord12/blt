@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad222796721034b94181b379f4105d29",
+    "content-hash": "9693677d4b8e05450e2cb978be8e8ce2",
     "packages": [
         {
             "name": "acquia/blt",
@@ -14887,6 +14887,45 @@
                 "instantiate"
             ],
             "time": "2019-10-21T16:45:58+00:00"
+        },
+        {
+            "name": "geerlingguy/drupal-vm",
+            "version": "5.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/geerlingguy/drupal-vm.git",
+                "reference": "3d3b36da9c37067872a3702e356b8edf135447a2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/geerlingguy/drupal-vm/zipball/3d3b36da9c37067872a3702e356b8edf135447a2",
+                "reference": "3d3b36da9c37067872a3702e356b8edf135447a2",
+                "shasum": ""
+            },
+            "type": "vm",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jeff Geerling",
+                    "homepage": "https://www.jeffgeerling.com"
+                },
+                {
+                    "name": "Oskar Schöldström",
+                    "homepage": "http://oxy.fi"
+                }
+            ],
+            "description": "A VM for local Drupal development, built with Vagrant + Ansible",
+            "homepage": "https://www.drupalvm.com",
+            "keywords": [
+                "drupal",
+                "vagrant",
+                "virtual machine",
+                "vm"
+            ],
+            "time": "2019-11-04T17:05:33+00:00"
         },
         {
             "name": "jarnaiz/behat-junit-formatter",
